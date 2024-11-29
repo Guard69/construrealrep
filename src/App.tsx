@@ -126,8 +126,8 @@ const ConstruReal = () => {
           <input
             type="radio"
             name="reside"
-            value="Nao"
-            checked={mora === "Nao"}
+            value="Não"
+            checked={mora === "Não"}
             onChange={(e) => setMora(e.target.value)}
           />{" "}
           Não
